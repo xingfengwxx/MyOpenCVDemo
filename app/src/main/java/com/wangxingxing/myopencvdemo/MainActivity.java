@@ -2,10 +2,12 @@ package com.wangxingxing.myopencvdemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -69,5 +71,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void toReset(View view) {
         mImageView.setImageBitmap(mSrcBitmap);
+    }
+
+    public void toGrayActivity(View view) {
+        Intent intent = new Intent(this, GrayActivity.class);
+        startActivity(intent);
     }
 }

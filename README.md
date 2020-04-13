@@ -11,4 +11,7 @@ Version: 3.2.0
 
 5.引入OpenCV Module
 
-案例：使用OpenCV将图片进行灰度化处理
+# 案例
+1.使用OpenCV将图片进行灰度化处理(MainActivity)
+
+2.使用ColorMatrix进行灰度化处理（GrayActivity）
